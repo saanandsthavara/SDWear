@@ -17,8 +17,8 @@ export const Footer = () => {
                 />
               </a>
             </Link>
-            <p className='mt-2 text-sm text-gray-500 px-4'>
-              Air plant banjo lyft occupy retro adaptogen indego
+            <p className='mt-2 text-sm text-blue-500 px-4'>
+              SDWear - Your One Stop Destination
             </p>
           </div>
           <div className='flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center'>
