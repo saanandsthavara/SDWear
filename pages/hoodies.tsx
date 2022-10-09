@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Hoodies = () => {
+export default function Hoodies() {
   return <div>Hoodies</div>;
-};
+}

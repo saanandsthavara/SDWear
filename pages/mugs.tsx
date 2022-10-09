@@ -1,5 +1,5 @@
 import React from 'react';
 
-export const Mugs = () => {
+export default function Mugs() {
   return <div>Mugs</div>;
-};
+}
