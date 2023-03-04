@@ -1,7 +1,8 @@
 {
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
+  "editor.fontSize": 13.5,
   "terminal.integrated.fontSize": 11,
   "editor.wordWrap": "on",
-  "editor.fontFamily": "'Hack'"
+  "editor.fontFamily": "'Hack'",
+  "window.zoomLevel": 0
 }

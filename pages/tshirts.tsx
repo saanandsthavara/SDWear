@@ -2,7 +2,6 @@
 import React, { useState } from 'react';
 
 function Tshirts() {
-  // we are here to talk about the issues we are focusing on and also we need to understand the need of other items in the
   const [first, setfirst] = useState<any>();
   return (
     <div>
