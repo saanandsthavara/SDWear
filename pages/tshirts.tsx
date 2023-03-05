@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 
 function Tshirts() {
-  const [first, setfirst] = useState<any>();
+  const [first, setfirst] = useState<string>();
   return (
     <div>
       <section className='text-gray-600 body-font'>

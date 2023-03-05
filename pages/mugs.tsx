@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 export default function Mugs() {
@@ -11,7 +12,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -30,7 +31,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -49,7 +50,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -68,7 +69,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -87,7 +88,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -106,7 +107,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -125,7 +126,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -144,7 +145,7 @@ export default function Mugs() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://media.istockphoto.com/id/821282266/photo/white-mug-isolated.jpg?s=1024x1024&w=is&k=20&c=lLoIQoXCxqgzgI9HHaLDduS2pZvh9fqFZCcN9qjowbs='
                 />
               </a>
               <div className='mt-4'>
@@ -164,5 +165,3 @@ export default function Mugs() {
     </div>
   );
 }
-
-// we can make sure that they all are having some problem having the items in the head and also they are not that fast i thought and other things in the pla

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 export default function Stickers() {
@@ -11,7 +12,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -30,7 +31,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -49,7 +50,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -68,7 +69,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -87,7 +88,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -106,7 +107,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -125,7 +126,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>
@@ -144,7 +145,7 @@ export default function Stickers() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://m.media-amazon.com/images/I/71r4DUPf+eL._SX679_.jpg'
                 />
               </a>
               <div className='mt-4'>

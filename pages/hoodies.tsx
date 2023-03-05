@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 export default function Hoodies() {
@@ -11,7 +12,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -30,7 +31,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -49,7 +50,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -68,7 +69,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -87,7 +88,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -106,7 +107,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -125,7 +126,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
@@ -144,7 +145,7 @@ export default function Hoodies() {
                 <img
                   alt='ecommerce'
                   className='object-cover object-top w-full h-full block'
-                  src='https://static-cse.canva.com/blob/567610/53aa1e25637131.563487362e1b4.ef896c9d.png'
+                  src='https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F12%2Fea%2F12ea312aa4418663f5eb09717da089008090113c.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]'
                 />
               </a>
               <div className='mt-4'>
