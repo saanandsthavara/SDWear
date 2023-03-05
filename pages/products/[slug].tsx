@@ -1,10 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
 import { useRouter } from 'next/router';
-import React from 'react';
+import React, { useState } from 'react';
 
 const Post = () => {
+  const [pincode, setPincode] = useState<any>();
+  const [serviceability, setServiceability] = useState<boolean>();
   const router = useRouter();
   const { slug } = router.query;
+
+  const onChangePincode = (e: any) => {
+    setPincode(e.target.value);
+  };
+
+  const checkPincodeService = async () => {
+    const pincodes = await fetch('http://localhost:3000/api/pincode');
+    const pincodeJson = await pincodes.json();
+    if (pincodeJson.includes(parseInt(pincode))) {
+      setServiceability(true);
+    } else {
+      setServiceability(false);
+    }
+  };
+
   return (
     <>
       <section className='text-gray-600 body-font overflow-hidden'>
@@ -17,7 +34,7 @@ const Post = () => {
             />
             <div className='lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0'>
               <h2 className='text-sm title-font text-gray-500 tracking-widest'>
-                BRAND NAME
+                SD Wear
               </h2>
               <h1 className='text-gray-900 text-3xl title-font font-medium mb-1'>
                 The Catcher in the Rye
@@ -113,12 +130,10 @@ const Post = () => {
                 </span>
               </div>
               <p className='leading-relaxed'>
-                Fam locavore kickstarter distillery. Mixtape chillwave tumeric
-                sriracha taximy chia microdosing tilde DIY. XOXO fam indxgo
-                juiceramps cornhole raw denim forage brooklyn. Everyday carry +1
-                seitan poutine tumeric. Gastropub blue bottle austin listicle
-                pour-over, neutra jean shorts keytar banjo tattooed umami
-                cardigan.
+                Overshirt in a textured linen and viscose weave. Regular fit
+                with a collar, buttons down the front, long sleeves with
+                buttoned cuffs and flap chest pockets with a button.
+                Straight-cut hem.
               </p>
               <div className='flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5'>
                 <div className='flex'>
@@ -155,8 +170,11 @@ const Post = () => {
                 <span className='title-font font-medium text-2xl text-gray-900'>
                   $58.00
                 </span>
-                <button className='flex ml-10 text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded'>
+                <button className='flex ml-14 text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded'>
                   Add to Cart
+                </button>
+                <button className='flex ml-4 text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded'>
+                  Buy Now
                 </button>
                 <button className='rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4'>
                   <svg
@@ -169,6 +187,31 @@ const Post = () => {
                     <path d='M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z'></path>
                   </svg>
                 </button>
+              </div>
+              <div className='pincode mt-6 flex space-x-2 text-sm'>
+                <input
+                  type='text'
+                  className='px-2 border-2 border-grey-400 rounded-md'
+                  onChange={onChangePincode}
+                  placeholder='Enter your Pincode'
+                />
+                <button
+                  className='text-white bg-blue-500  hover:bg-blue-600 border-1 py-2 px-6 rounded-md border-0'
+                  onClick={checkPincodeService}>
+                  Check Pincode
+                </button>
+              </div>
+              <div>
+                {!serviceability && serviceability != null && (
+                  <div className='text-red-700 mt-3 text-sm'>
+                    We donnot deliver this product to this location
+                  </div>
+                )}
+                {serviceability && serviceability != null && (
+                  <div className='text-green-700 mt-3 text-sm'>
+                    Yay! We deliver this product to this location
+                  </div>
+                )}
               </div>
             </div>
           </div>

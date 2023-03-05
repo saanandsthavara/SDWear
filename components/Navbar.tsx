@@ -49,7 +49,6 @@ export const Navbar = () => {
               <li>Stickers</li>
             </a>
           </Link>
-
           <Link href={'/mugs'}>
             <a>
               <li>Mugs</li>
