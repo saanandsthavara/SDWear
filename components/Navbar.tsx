@@ -10,8 +10,24 @@ import {
 import { BsFillCartFill } from 'react-icons/bs';
 import { IoLogoOctocat } from 'react-icons/io';
 
-export const Navbar = () => {
+interface Props {
+  cart: any;
+  addToCart: any;
+  removeFromCart: any;
+  clearCart: any;
+  subTotal: any;
+}
+
+export const Navbar = ({
+  cart,
+  addToCart,
+  removeFromCart,
+  clearCart,
+  subTotal,
+}: Props) => {
   const toggleCart = () => {
+    console.log('data', cart, addToCart, removeFromCart, clearCart, subTotal);
+
     if (ref.current.classList.contains('translate-x-full')) {
       ref.current.classList.remove('translate-x-full');
       ref.current.classList.add('translate-x-0');
@@ -21,6 +37,8 @@ export const Navbar = () => {
     }
   };
   const ref = useRef<any>();
+
+  // CLear all the data from the logs and also make sure that
 
   return (
     <div className='flex flex-col md:flex-row md:justify-start justify-center items-center my-3 mb-2 '>
@@ -114,7 +132,9 @@ export const Navbar = () => {
           <button className='flex mr-2 text-white bg-orange-400 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-sm'>
             <BsFillCartFill className='m-1' /> Checkout
           </button>
-          <button className='flex mr-2 text-black border-0 py-2 px-8 focus:outline-none bg-gray-300 rounded text-sm'>
+          <button
+            className='flex mr-2 text-black border-0 py-2 px-8 focus:outline-none bg-gray-300 rounded text-sm'
+            onClick={clearCart}>
             Clear
           </button>
         </div>

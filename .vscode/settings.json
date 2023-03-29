@@ -1,10 +1,10 @@
 {
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
-  "terminal.integrated.fontSize": 13,
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 12,
   "editor.wordWrap": "on",
   "editor.fontFamily": "'Hack'",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "terminal.integrated.lineHeight": 0,
   "editor.links": false,
   "editor.tokenColorCustomizations": {
@@ -119,5 +119,6 @@
     ]
   },
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.mouseWheelZoom": true
 }
