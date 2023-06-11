@@ -11,3 +11,7 @@ export default function handler(
 ) {
   res.status(200).json({ name: 'John Doe' });
 }
+
+export const data = () => {
+  console.log('Hello from the other side');
+};
